@@ -1,0 +1,24 @@
+{
+  "name": "vite-environment-mongodb",
+  "version": "1.0.0",
+  "description": "Sets up a MongoDB memory-server environment for testing with Vitest.",
+  "main": "dist/mongodb-environment.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepack": "npm run build",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb-memory-server": "^10.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "semantic-release": "^24.2.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}
