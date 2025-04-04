@@ -1,5 +1,5 @@
 {
-  "name": "vite-environment-mongodb",
+  "name": "vitest-environment-mongodb",
   "version": "0.0.0",
   "description": "Sets up a MongoDB memory-server environment for testing with Vitest.",
   "main": "dist/mongodb-environment.js",
