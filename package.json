@@ -1,6 +1,6 @@
 {
   "name": "vite-environment-mongodb",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Sets up a MongoDB memory-server environment for testing with Vitest.",
   "main": "dist/mongodb-environment.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "semantic-release": "semantic-release"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joseph Gilgen <2569898+jb-1980@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
     "mongodb-memory-server": "^10.1.4"
