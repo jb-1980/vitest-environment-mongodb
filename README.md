@@ -71,4 +71,6 @@ test("should create a user", async () => {
 
 - `mongoUrlEnvName` (string): The name of the environment variable that will contain the MongoDB connection string. Default is `MONGO_CONNECTION_STRING`.
 - `replicaSet` (boolean): Whether to use a replica set. Default is `false`.
-  And any other options that are supported by `mongodb-memory-server` package.
+- `serverOptions` (MongoMemoryServerOpts | MongoMemoryReplSetOpts): An options object
+  that will passed through to the `mongodb-memory-server` package. Be sure to use the
+  options for the server type you are using, either `MongoMemoryReplSetOpts` when `replicaSet=true` or `MongoMemoryServerOpts` for `replicaSet=false`.
