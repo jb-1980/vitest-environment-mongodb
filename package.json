@@ -9,6 +9,7 @@
     "prepack": "npm run build",
     "semantic-release": "semantic-release"
   },
+  "repository": "https://github.com/jb-1980/vitest-environment-mongodb",
   "keywords": [],
   "author": "Joseph Gilgen <2569898+jb-1980@users.noreply.github.com>",
   "license": "MIT",
